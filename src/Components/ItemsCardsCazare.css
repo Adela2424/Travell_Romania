@@ -1,0 +1,88 @@
+.width_accommodation {
+  background-color: #d7d7e0;
+}
+
+.sectiuneaccomodation {
+  margin: 0px auto;
+  height: 100%;
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_accommodation_cards {
+  font-size: 14px;
+  width: 70%;
+  padding: 20px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.accommodation_item {
+  border: #91919b 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+}
+
+.container_left_accommodation {
+  max-width: 220px;
+  max-height: 100%;
+  margin: 10px;
+}
+
+.titlu_accommodation {
+  font-size: 27px;
+  color: #116863;
+}
+
+.locatie_accommodation {
+  color: #aa6c0e;
+  font-size: 18px;
+}
+
+.img_cards_accommodation {
+  width: 100%;
+}
+
+.container_center_accommodation {
+  width: 40%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pret_orientativ_right {
+  border-left: rgba(163, 163, 172, 0.699) solid;
+  padding: 10px;
+}
+
+.culoare_pret {
+  color: #0044ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mic_dejun {
+  color: green;
+}
+/*# sourceMappingURL=ItemsCardsCazare.css.map */

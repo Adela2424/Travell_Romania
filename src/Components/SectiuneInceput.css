@@ -1,0 +1,85 @@
+.background_fundal {
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10% 0;
+  width: 100%;
+}
+
+.text {
+  width: 100%;
+}
+
+.titlu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titlu_bara {
+  text-align: center;
+}
+
+.content_p {
+  margin: 20px 0;
+  text-align: center;
+  color: #f9faf8;
+  font-size: 20px;
+  font-family: "Dosis", sans-serif;
+}
+
+.titlu_bara {
+  margin: 10px 0;
+  text-align: center;
+  font-family: 'Sigmar One', cursive;
+  font-size: 35px;
+  color: #b6b1c9;
+}
+
+@media (max-width: 860px) {
+  .titlu_bara {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 380px) {
+  .titlu_bara {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 235px) {
+  .titlu_bara {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .background_fundal {
+    height: 550px;
+  }
+}
+/*# sourceMappingURL=SectiuneInceput.css.map */

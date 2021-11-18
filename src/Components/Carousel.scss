@@ -1,0 +1,47 @@
+.carousel{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.carouselInner{
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.left{
+    background-color:rgba(94, 86, 87, 0.322) ;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    background-color:rgba(0, 0, 0, 0.493);
+    width: 80%;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+.center h1{
+    margin: 20px 0px;
+}
+.right{
+    background-color: rgba(94, 86, 87, 0.322);
+    width: 8%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.fas{
+    color: rgb(255, 255, 255);
+}

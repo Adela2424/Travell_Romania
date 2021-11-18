@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Athiti", sans-serif;
+  text-decoration: none;
+}
+
+.container_page {
+  width: 100%;
+}
+
+.container_principal_nav {
+  background: #6451bd;
+  padding: 0 5%;
+}
+.container_nav {
+  color: white;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  height: 50px;
+}
+.left {
+  display: flex;
+  justify-content: flex-start;
+  width: 10%;
+}
+
+.centru_menu {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 85%;
+}
+.centru_menu li {
+  padding: 0px 10px;
+  list-style: none;
+  margin: 20px;
+}
+.centru_menu li a:hover {
+  background-color: rgb(22, 108, 129);
+  border-bottom: rgb(196, 255, 34) solid;
+  border-radius: 15px;
+}
+.centru_menu li a {
+  padding: 5px 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.hr_nav {
+  border: none;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(58, 69, 131, 0.61);
+}
+.header_sub_nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 100%;
+  h2 {
+    font-size: 50px;
+    font-family: "Parisienne", cursive;
+  }
+}
+
+
+.button_nav {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .centru_menu{
+    display: none;
+  }
+  #hidden {
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 50px;
+    height: 350px;
+    background-color: rgb(100, 81, 189);
+    width: 100%;
+    border-top: 1px rgb(121, 165, 168) solid;
+    padding: 40px 0 ;
+   
+  }
+  #hidden li a:hover {
+    background-color: rgb(22, 108, 129);
+    border-bottom: rgb(196, 255, 34) solid;
+    border-radius: 15px;
+  }
+  #hidden li a {
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+        transition: 0.2s;
+        position: relative;
+        overflow: hidden;
+  }
+
+ 
+  .button_nav {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .btn_mobile{
+    padding: 10px;
+  }
+  .btn_mobile:hover{
+    background-color: rgb(22, 108, 129);
+    border-bottom: rgb(196, 255, 34) solid;
+    border-radius: 15px;
+  }
+  
+  
+  
+}
+
+@media (max-width: 490px) {
+  .header_sub_nav h2 {
+    font-size: 43px;
+  }
+}
+
+@media (max-width: 410px) {
+  .header_sub_nav h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 305px) {
+  .header_sub_nav h2 {
+    font-size: 30px;
+  }
+}

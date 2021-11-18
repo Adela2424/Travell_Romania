@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cards_travell {
+  background-color: rgba(110, 116, 116, 0.336);
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.text_locatie_card {
+  margin: 0;
+}
+
+.container_cards_items {
+  margin-top: 30px;
+  max-width: 210px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: rgba(129, 123, 123, 0.726) solid 2px;
+}
+
+.items_cards {
+  margin: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cards_text_travel {
+  padding-top: 25px;
+}
+
+.text_container_cards {
+  color: #6e6e43;
+  text-align: center;
+}
+
+.img_in_cards {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.cards_nume {
+  margin-top: 10px;
+  color: black;
+}
+
+.flex_locatie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  color: #6e6e43;
+}
+
+.flex_locatie .fas {
+  color: blue;
+  margin-right: 15px;
+}
+/*# sourceMappingURL=Cards.css.map */
